@@ -1,0 +1,50 @@
+.serviceoffers {
+    background: #ECF0F1;
+}
+
+.headings {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.names {
+    background: white;
+    padding: 10px 5px 0.1px 10px;
+}
+
+.names h1 {
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.progress {
+    height: 0.6rem!important;
+    margin-bottom: 20px!important;
+    background: #606060;
+    width: 90%;
+}
+
+.servicetext h2 {
+    font-size: 1.2rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.serviceicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+}
+
+.names1 {
+    background: white;
+}
+
+.whitediv {
+    margin-top: 10px;
+}

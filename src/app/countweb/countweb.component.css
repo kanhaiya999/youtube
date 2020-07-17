@@ -1,0 +1,18 @@
+.project-work {
+    margin: 100px 0;
+}
+
+.project-work h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.count-text a {
+    text-decoration-line: none;
+}
+
+.count-text a:hover {
+    color: darkblue;
+    text-decoration-line: none;
+    transition: all 0.5s;
+}

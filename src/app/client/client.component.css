@@ -1,0 +1,75 @@
+    a {
+        text-decoration: none!important;
+    }
+    
+    p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #606060;
+    }
+    
+    .clients {
+        width: 100%;
+        height: 100vh;
+        padding: 80px 0px;
+    }
+    
+    .box {
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+        transition: 0.3s ease;
+    }
+    
+    .pic {
+        background-image: url(C:\Users\Education\myweb\src\assets\laptop.jpeg);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    
+    .box a {
+        position: relative;
+    }
+    
+    .box:hover {
+        background: #16c9f6;
+    }
+    
+    .box:hover p {
+        color: white;
+    }
+    
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -60px!important;
+    }
+    
+    .box h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        padding: 10px 0px;
+    }
+    
+    .box h2 {
+        font-size: 13px;
+        font-weight: 400;
+        color: #000;
+        padding-bottom: 10px;
+    }
+    
+    .carousel-indicators li {
+        background-color: #16c9f6!important;
+    }
+    
+    @media(max-width:768px) {
+        .clients {
+            margin-top: 50px;
+            height: auto;
+        }
+    }
